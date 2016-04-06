@@ -1,0 +1,367 @@
+header{
+    height: 500px;
+    background-color: dimgrey;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+header a{
+    color: white;
+}
+
+header h1{
+    font-family: sans-serif;
+    font-weight:100;
+}
+
+.navbar-brand{
+    padding-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-right{
+    padding-right: 100px;
+}
+
+.navbar-right>li>a:hover{
+    border-bottom: 4px solid orange;
+    background-color: dimgrey;
+    color: white;
+}
+
+.orange{
+    border-bottom: 4px solid orange;
+    padding-bottom: 5px;
+}
+
+.orange2{
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+
+}
+
+
+.ol.carousel-indicators{
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.minor{
+    font-style:italic;
+    font-size: 12px;
+}
+
+ul .listAboutUs{
+    padding: 5px;
+    list-style-type: none; 
+}
+
+span.glyphicon.glyphicon-record{
+    padding-right: 10px;
+}
+
+span.glyphicon.glyphicon-folder-close{
+    padding-right: 10px;
+}
+
+
+
+button.btn.btn-secondary.browseWork{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 20px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#text{
+    display: block;
+    margin: 100px auto;
+    position:static;
+    top:100px;
+    text-align: center;
+    border: none;
+}
+
+#spirit{
+    color: orange;
+}
+
+#button{
+    margin-left: 50%;
+    margin-top: 160px;
+    border: none;
+}
+
+button.btn.btn-secondary.go-down{
+    border-radius: 100%;
+    background-color: transparent;
+    border-color: white;
+    
+}
+
+
+.wordsAboutUs{
+    text-align: justify;
+    padding: 40px;
+    margin-top: 50px;    
+}
+
+.wordsAboutUs h3{
+    padding-bottom: 20px;
+    margin-top: 5px;
+}
+
+.wordsAboutUs h4{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.meetOurTeam{
+    color: white;
+    background-color: dimgrey;
+    text-align: center;
+    
+}
+
+.meetOurTeam h4{
+    font-weight:700; 
+}
+
+.meetOurTeam img{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.meetOurTeam h2{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#figureBox{
+    padding: 50px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.carousel-indicators{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+
+.carousel-indicators .active {
+    background-color: orange;
+    border-color: orange;
+}
+
+
+#services{
+    margin: 10px auto;
+    height: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    background-color: white;
+}
+
+#services h2{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-weight: lighter;
+}
+
+
+#services>p{
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+        
+}
+
+#services .col-md-3{
+    padding-bottom: 30px;
+    height: 60%;
+    margin-bottom: 20px;
+}
+
+#clients{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+#clients h2{
+    margin: 0 auto;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 150px;
+}
+
+#clients a{
+    font-family: fantasy;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+#clients .carousel-inner{
+    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#ourWork{
+    height: 100%;
+    margin: 10px auto;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+#ourWork h2{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#ourWork p{
+    padding: 10px 100px;
+    text-align: center;
+}
+
+#ourWork>nav{
+    padding: 20px 165px;
+    margin-right: 20px;
+    color: black;
+}
+
+#ourWork .unit{
+  padding-left: 0;
+  margin: 0;
+  padding-top: 20px;    
+}
+
+.unit img{
+    width: 180px;
+    height: 140px;
+    
+}
+
+#ourWork .all{
+    padding: 20px 180px ;
+}
+
+#ourWork a{
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid black;
+}
+
+a.noBorder{
+    border: none;
+}
+
+#testimonials{
+    background-color: black;
+    margin: 20px auto;
+    font-family: sans-serif;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#testimonials h2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    text-align: center;  
+    
+}
+
+#testimonials h5{
+    text-align: center;
+    padding: 20px 200px;
+    line-height: 30px;
+}
+
+
+#testimonials .client{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#contactUs{
+    background-color: white;
+    height: 100%;
+    padding-bottom: 50px;
+    text-align: left;
+    padding: 30px 250px;
+}
+
+#contactUs h2{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+#contactUs label{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-left: 0;
+}
+
+#contactUs input{
+    width: 30%;
+    height: 30px;
+}
+
+#contactUs textarea{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#contactUs .btn{
+    background-color: orange;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    height: 100%;
+    
+}
+
+#contactUs .red{
+    color: red;
+    padding-left: 5px;
+}
+
+#contactUs p, #contactUs h2{
+    text-align: center;
+}
+
